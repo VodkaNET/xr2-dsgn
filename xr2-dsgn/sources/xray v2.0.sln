@@ -35,13 +35,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nvidia", "nvidia", "{459EFA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vorbis", "vorbis", "{C943D9F8-1E67-4BDB-8C90-BC9B27D66B7F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ai", "xray\ai\sources\ai.vcproj", "{A0327856-D686-4659-90B9-226877A9D11F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ai", "vostok\ai\sources\ai.vcproj", "{A0327856-D686-4659-90B9-226877A9D11F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ai_navigation", "xray\ai_navigation\sources\ai_navigation.vcproj", "{E7FF01A9-20EA-431D-8EE5-71631F8C05A5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ai_navigation", "vostok\ai_navigation\sources\ai_navigation.vcproj", "{E7FF01A9-20EA-431D-8EE5-71631F8C05A5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "animation", "xray\animation\sources\animation.vcproj", "{E479FF54-6317-42C2-8B50-7522D869814F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "animation", "vostok\animation\sources\animation.vcproj", "{E479FF54-6317-42C2-8B50-7522D869814F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "animation_editor", "xray\editor\animation\sources\animation_editor.vcproj", "{6131E08B-62E9-4776-85AE-06C91D3AED7A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "animation_editor", "vostok\editor\animation\sources\animation_editor.vcproj", "{6131E08B-62E9-4776-85AE-06C91D3AED7A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bugtrap", "BugTrap\BugTrap.vcproj", "{E8CF1ADA-264A-4127-86C2-FD7057D3792C}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -55,15 +55,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bugtrapN", "BugTrap\BugTrap
 		{4103F7E4-2835-48FB-BA5E-DD0A14A16927} = {4103F7E4-2835-48FB-BA5E-DD0A14A16927}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "collision", "xray\collision\sources\collision.vcproj", "{0FA0F2D0-73D3-4C9A-84F7-1D6873024F96}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "collision", "vostok\collision\sources\collision.vcproj", "{0FA0F2D0-73D3-4C9A-84F7-1D6873024F96}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "xray\core\sources\core.vcproj", "{39624382-B2EB-46C8-A54B-733AC2D1C83F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "vostok\core\sources\core.vcproj", "{39624382-B2EB-46C8-A54B-733AC2D1C83F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "debug", "xray\debug\sources\debug.vcproj", "{E31F3F03-D47A-4ED0-9503-171B94B1BFB2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "debug", "vostok\debug\sources\debug.vcproj", "{E31F3F03-D47A-4ED0-9503-171B94B1BFB2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dialog_editor", "xray\editor\dialog\sources\dialog_editor.vcproj", "{5EC58FB8-223B-4991-9074-AB7739DD7773}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dialog_editor", "vostok\editor\dialog\sources\dialog_editor.vcproj", "{5EC58FB8-223B-4991-9074-AB7739DD7773}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "editor", "xray\editor\world\sources\editor.vcproj", "{F9523302-4516-4FEC-863B-01031632EC37}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "editor", "vostok\editor\world\sources\editor.vcproj", "{F9523302-4516-4FEC-863B-01031632EC37}"
 	ProjectSection(ProjectDependencies) = postProject
 		{AC5DD91F-CE10-4E05-B48A-E1DDEC5CCD9C} = {AC5DD91F-CE10-4E05-B48A-E1DDEC5CCD9C}
 		{4EBA1E2F-CEDE-4009-B890-30D72F9FEEEE} = {4EBA1E2F-CEDE-4009-B890-30D72F9FEEEE}
@@ -71,11 +71,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "editor", "xray\editor\world
 		{9E219DF2-315D-478E-8A07-8960C377CE1E} = {9E219DF2-315D-478E-8A07-8960C377CE1E}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "editor_base", "xray\editor\base\sources\editor_base.vcproj", "{D48CBBFF-8B47-4E0F-915B-3220F3BC2402}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "editor_base", "vostok\editor\base\sources\editor_base.vcproj", "{D48CBBFF-8B47-4E0F-915B-3220F3BC2402}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "editor_controls", "xray\editor\controls\sources\editor_controls.vcproj", "{FDDFC8AD-1E92-4A92-8937-152C64C5B980}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "editor_controls", "vostok\editor\controls\sources\editor_controls.vcproj", "{FDDFC8AD-1E92-4A92-8937-152C64C5B980}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "engine", "xray\engine\sources\engine.vcproj", "{81243BA2-540C-4118-B99F-DC3CDBA53A34}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "engine", "vostok\engine\sources\engine.vcproj", "{81243BA2-540C-4118-B99F-DC3CDBA53A34}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E31F3F03-D47A-4ED0-9503-171B94B1BFB2} = {E31F3F03-D47A-4ED0-9503-171B94B1BFB2}
 		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD} = {3A214E06-B95E-4D61-A291-1F8DF2EC10FD}
@@ -102,7 +102,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "engine", "xray\engine\sourc
 		{15CBFEFF-7965-41F5-B4E2-21E8795C9159} = {15CBFEFF-7965-41F5-B4E2-21E8795C9159}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "engine_pc", "xray\engine\pc\sources\engine_pc.vcproj", "{AC5DD91F-CE10-4E05-B48A-E1DDEC5CCD9C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "engine_pc", "vostok\engine\pc\sources\engine_pc.vcproj", "{AC5DD91F-CE10-4E05-B48A-E1DDEC5CCD9C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{4EBA1E2F-CEDE-4009-B890-30D72F9FEEEE} = {4EBA1E2F-CEDE-4009-B890-30D72F9FEEEE}
 		{10688643-85EA-4C0B-A19C-FFE025323791} = {10688643-85EA-4C0B-A19C-FFE025323791}
@@ -123,14 +123,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FreeImage", "FreeImage\Free
 		{CA2604CA-A2AC-49A1-A468-8AB5A2E6CBC9} = {CA2604CA-A2AC-49A1-A468-8AB5A2E6CBC9}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fs", "xray\fs\sources\fs.vcproj", "{23F036A4-B540-4F32-A58B-1C7A11523D48}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fs", "vostok\fs\sources\fs.vcproj", "{23F036A4-B540-4F32-A58B-1C7A11523D48}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fs_pack", "xray\fs_pack\sources\fs_pack.vcproj", "{4728470A-7290-4A72-8505-1D9A1944C7C4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fs_pack", "vostok\fs_pack\sources\fs_pack.vcproj", "{4728470A-7290-4A72-8505-1D9A1944C7C4}"
 	ProjectSection(ProjectDependencies) = postProject
 		{39624382-B2EB-46C8-A54B-733AC2D1C83F} = {39624382-B2EB-46C8-A54B-733AC2D1C83F}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graphics_benchmark", "xray\graphics_benchmark\sources\graphics_benchmark.vcproj", "{827DD5DE-6CBC-44E7-9178-A1786BF4EC8A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graphics_benchmark", "vostok\graphics_benchmark\sources\graphics_benchmark.vcproj", "{827DD5DE-6CBC-44E7-9178-A1786BF4EC8A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{4EBA1E2F-CEDE-4009-B890-30D72F9FEEEE} = {4EBA1E2F-CEDE-4009-B890-30D72F9FEEEE}
 		{10688643-85EA-4C0B-A19C-FFE025323791} = {10688643-85EA-4C0B-A19C-FFE025323791}
@@ -138,12 +138,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graphics_benchmark", "xray\
 		{39624382-B2EB-46C8-A54B-733AC2D1C83F} = {39624382-B2EB-46C8-A54B-733AC2D1C83F}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "xray\game\sources\game.vcproj", "{9D1B540F-5E44-4ECA-B371-2BBF93B9DBC2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "vostok\game\sources\game.vcproj", "{9D1B540F-5E44-4ECA-B371-2BBF93B9DBC2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{AC5DD91F-CE10-4E05-B48A-E1DDEC5CCD9C} = {AC5DD91F-CE10-4E05-B48A-E1DDEC5CCD9C}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "input", "xray\input\sources\input.vcproj", "{92742045-96DC-424A-883F-F4E463F4C39A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "input", "vostok\input\sources\input.vcproj", "{92742045-96DC-424A-883F-F4E463F4C39A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibFoundation", "WildMagic\LibFoundation\LibFoundation_VC90.vcproj", "{9CE08AA4-9163-4A42-BCBF-E361B5BA5BC0}"
 EndProject
@@ -157,9 +157,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibPNG", "freeimage\LibPNG\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibTIFF", "freeimage\LibTIFF\libTIFF.vcproj", "{431E3F3F-7C4D-430A-B8F1-4F165DB64EDC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "logging", "xray\logging\sources\logging.vcproj", "{1E8DB72A-E3ED-4E15-979B-31BA5BFDD4C1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "logging", "vostok\logging\sources\logging.vcproj", "{1E8DB72A-E3ED-4E15-979B-31BA5BFDD4C1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maya2011", "xray\maya\sources\maya.vcproj", "{5A9538ED-593C-40A1-979E-1ADF9312B6C5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maya2011", "vostok\maya\sources\maya.vcproj", "{5A9538ED-593C-40A1-979E-1ADF9312B6C5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E31F3F03-D47A-4ED0-9503-171B94B1BFB2} = {E31F3F03-D47A-4ED0-9503-171B94B1BFB2}
 		{1E8DB72A-E3ED-4E15-979B-31BA5BFDD4C1} = {1E8DB72A-E3ED-4E15-979B-31BA5BFDD4C1}
@@ -181,7 +181,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maya2011", "xray\maya\sourc
 		{1BF75FEB-87DD-486C-880B-227987D191C2} = {1BF75FEB-87DD-486C-880B-227987D191C2}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maya_animation", "xray\maya_animation\sources\maya_animation.vcproj", "{82E59A6B-049A-412E-AEB1-3B679AAEC50F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maya_animation", "vostok\maya_animation\sources\maya_animation.vcproj", "{82E59A6B-049A-412E-AEB1-3B679AAEC50F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minizip", "minizip\minizip.vcproj", "{893279CB-0805-405F-B484-9BB728A18261}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -193,12 +193,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minizipN", "minizip\minizip
 		{4103F7E4-2835-48FB-BA5E-DD0A14A16927} = {4103F7E4-2835-48FB-BA5E-DD0A14A16927}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "model_editor", "xray\editor\model\sources\model_editor.vcproj", "{09BE8F4A-0DCC-484D-9AB8-517E456EA429}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "model_editor", "vostok\editor\model\sources\model_editor.vcproj", "{09BE8F4A-0DCC-484D-9AB8-517E456EA429}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C75532C4-765B-418E-B09B-46D36B2ABDB1} = {C75532C4-765B-418E-B09B-46D36B2ABDB1}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "network", "xray\network\sources\network.vcproj", "{A20C1E29-2B0A-4036-A258-BAB22695D214}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "network", "vostok\network\sources\network.vcproj", "{A20C1E29-2B0A-4036-A258-BAB22695D214}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nvimage", "nvidia\nvt\project\nvimage.vcproj", "{4046F392-A18B-4C66-9639-3EABFFF5D531}"
 EndProject
@@ -219,13 +219,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opcode", "opcode\Opcode.vcp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenEXR", "freeimage\OpenEXR\OpenEXR.vcproj", "{17A4874B-0606-4687-90B6-F91F8CB3B8AF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "particle", "xray\particle\sources\particle.vcproj", "{D8476D76-9C18-4712-8553-1464F00D0F2C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "particle", "vostok\particle\sources\particle.vcproj", "{D8476D76-9C18-4712-8553-1464F00D0F2C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "particle_editor", "xray\editor\particle\sources\particle_editor.vcproj", "{7B841BC8-D6BD-4665-92B9-21DE323D20FA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "particle_editor", "vostok\editor\particle\sources\particle_editor.vcproj", "{7B841BC8-D6BD-4665-92B9-21DE323D20FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pc_dx11", "pc_dx11", "{4806F475-DEDD-4C00-B866-E5E6AAC302C1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "physics", "xray\physics\sources\physics.vcproj", "{3ABCF987-4236-460A-87DD-40DA98BA3B31}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "physics", "vostok\physics\sources\physics.vcproj", "{3ABCF987-4236-460A-87DD-40DA98BA3B31}"
 	ProjectSection(ProjectDependencies) = postProject
 		{CB487885-BEF1-40E7-A6F9-0C98A72EF12A} = {CB487885-BEF1-40E7-A6F9-0C98A72EF12A}
 		{1BF75FEB-87DD-486C-880B-227987D191C2} = {1BF75FEB-87DD-486C-880B-227987D191C2}
@@ -235,17 +235,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ps3", "ps3", "{0D40AA97-E4E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xbox360", "xbox360", "{AE5C3E94-9EB1-46F9-956A-47F78841CDE0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_facade", "xray\render\facade\sources\render_facade.vcproj", "{C2FEBAE9-7A0D-483E-89B7-1FF2388187E4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_facade", "vostok\render\facade\sources\render_facade.vcproj", "{C2FEBAE9-7A0D-483E-89B7-1FF2388187E4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_core_dx11", "xray\render\core\sources\render_core_dx11.vcproj", "{056D4C47-10DD-49AD-8213-8201E2114B06}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_core_dx11", "vostok\render\core\sources\render_core_dx11.vcproj", "{056D4C47-10DD-49AD-8213-8201E2114B06}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_engine_dx11", "xray\render\engine\sources\render_engine_dx11.vcproj", "{10688643-85EA-4C0B-A19C-FFE025323791}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_engine_dx11", "vostok\render\engine\sources\render_engine_dx11.vcproj", "{10688643-85EA-4C0B-A19C-FFE025323791}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_engine_ps3", "xray\render\engine\sources\render_engine_ps3.vcproj", "{B0F3D10F-2E66-4E19-B839-F04F51B2F442}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_engine_ps3", "vostok\render\engine\sources\render_engine_ps3.vcproj", "{B0F3D10F-2E66-4E19-B839-F04F51B2F442}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_engine_xbox360", "xray\render\engine\sources\render_engine_xbox360.vcproj", "{B4FF3798-D549-4229-B496-100F073D2CFD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "render_engine_xbox360", "vostok\render\engine\sources\render_engine_xbox360.vcproj", "{B4FF3798-D549-4229-B496-100F073D2CFD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rms_generator", "xray\rms_generator\sources\rms_generator.vcproj", "{951FE628-A044-4AB5-86E6-253295216330}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rms_generator", "vostok\rms_generator\sources\rms_generator.vcproj", "{951FE628-A044-4AB5-86E6-253295216330}"
 	ProjectSection(ProjectDependencies) = postProject
 		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD} = {3A214E06-B95E-4D61-A291-1F8DF2EC10FD}
 		{39624382-B2EB-46C8-A54B-733AC2D1C83F} = {39624382-B2EB-46C8-A54B-733AC2D1C83F}
@@ -253,9 +253,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rms_generator", "xray\rms_g
 		{15CBFEFF-7965-41F5-B4E2-21E8795C9159} = {15CBFEFF-7965-41F5-B4E2-21E8795C9159}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtp", "xray\rtp\sources\rtp.vcproj", "{03011367-A6E5-4163-B06F-1E56531ADEBE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtp", "vostok\rtp\sources\rtp.vcproj", "{03011367-A6E5-4163-B06F-1E56531ADEBE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtp_learn", "xray\rtp_learn\sources\rtp_learn.vcproj", "{0180C052-92D3-4454-B910-47D97F9021F5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtp_learn", "vostok\rtp_learn\sources\rtp_learn.vcproj", "{0180C052-92D3-4454-B910-47D97F9021F5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E479FF54-6317-42C2-8B50-7522D869814F} = {E479FF54-6317-42C2-8B50-7522D869814F}
 		{03011367-A6E5-4163-B06F-1E56531ADEBE} = {03011367-A6E5-4163-B06F-1E56531ADEBE}
@@ -265,26 +265,26 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtp_learn", "xray\rtp_learn
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shaders - Shader Model 4.0", "..\resources\sources\shaders\sm_4_0\shaders.vcproj", "{1BEF05DB-4870-46D4-AA52-B49F745110D0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shader_compiler", "xray\shader_compiler\sources\shader_compiler.vcproj", "{F28D31F1-5A42-4235-8F19-EA92E9BED50E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shader_compiler", "vostok\shader_compiler\sources\shader_compiler.vcproj", "{F28D31F1-5A42-4235-8F19-EA92E9BED50E}"
 	ProjectSection(ProjectDependencies) = postProject
 		{056D4C47-10DD-49AD-8213-8201E2114B06} = {056D4C47-10DD-49AD-8213-8201E2114B06}
 		{39624382-B2EB-46C8-A54B-733AC2D1C83F} = {39624382-B2EB-46C8-A54B-733AC2D1C83F}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shader_generator", "xray\shader_generator\sources\shader_generator.vcproj", "{73FED916-1AB3-426C-A6D6-14A428B424A6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shader_generator", "vostok\shader_generator\sources\shader_generator.vcproj", "{73FED916-1AB3-426C-A6D6-14A428B424A6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sound", "xray\sound\sources\sound.vcproj", "{3C336F8E-48C1-4EEC-815C-027D836222BC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sound", "vostok\sound\sources\sound.vcproj", "{3C336F8E-48C1-4EEC-815C-027D836222BC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sound_editor", "xray\editor\sound\sources\sound_editor.vcproj", "{DD6BF626-6D88-41F4-AC04-C807904C1ECF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sound_editor", "vostok\editor\sound\sources\sound_editor.vcproj", "{DD6BF626-6D88-41F4-AC04-C807904C1ECF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stalker2 - PC - Windows", "xray\stalker2\pc\sources\stalker2_pc.vcproj", "{2C0244D2-EF70-45C5-A088-1594FCCB428F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stalker2 - PC - Windows", "vostok\stalker2\pc\sources\stalker2_pc.vcproj", "{2C0244D2-EF70-45C5-A088-1594FCCB428F}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F9523302-4516-4FEC-863B-01031632EC37} = {F9523302-4516-4FEC-863B-01031632EC37}
 		{9D1B540F-5E44-4ECA-B371-2BBF93B9DBC2} = {9D1B540F-5E44-4ECA-B371-2BBF93B9DBC2}
 		{AC5DD91F-CE10-4E05-B48A-E1DDEC5CCD9C} = {AC5DD91F-CE10-4E05-B48A-E1DDEC5CCD9C}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stalker2 - PS3", "xray\stalker2\ps3\sources\stalker2_ps3.vcproj", "{DF2483FF-540E-4953-ACFE-520EDCC5FA37}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stalker2 - PS3", "vostok\stalker2\ps3\sources\stalker2_ps3.vcproj", "{DF2483FF-540E-4953-ACFE-520EDCC5FA37}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E31F3F03-D47A-4ED0-9503-171B94B1BFB2} = {E31F3F03-D47A-4ED0-9503-171B94B1BFB2}
 		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD} = {3A214E06-B95E-4D61-A291-1F8DF2EC10FD}
@@ -311,7 +311,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stalker2 - PS3", "xray\stal
 		{15CBFEFF-7965-41F5-B4E2-21E8795C9159} = {15CBFEFF-7965-41F5-B4E2-21E8795C9159}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stalker2 - Xbox 360", "xray\stalker2\xbox360\sources\stalker2_xbox360.vcproj", "{B05AC65F-427C-4933-84D8-2F99DD80B3BD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stalker2 - Xbox 360", "vostok\stalker2\xbox360\sources\stalker2_xbox360.vcproj", "{B05AC65F-427C-4933-84D8-2F99DD80B3BD}"
 	ProjectSection(ProjectDependencies) = postProject
 		{9D1B540F-5E44-4ECA-B371-2BBF93B9DBC2} = {9D1B540F-5E44-4ECA-B371-2BBF93B9DBC2}
 		{B4FF3798-D549-4229-B496-100F073D2CFD} = {B4FF3798-D549-4229-B496-100F073D2CFD}
@@ -321,15 +321,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stalker2 - Xbox 360", "xray
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "squish", "nvidia\nvt\project\squish.vcproj", "{CE017322-01FC-4851-9C8B-64E9A8E26C38}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "xray\test\sources\test.vcproj", "{32340157-C4AF-4380-9239-D5ECA5DDDC65}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "vostok\test\sources\test.vcproj", "{32340157-C4AF-4380-9239-D5ECA5DDDC65}"
 	ProjectSection(ProjectDependencies) = postProject
 		{39624382-B2EB-46C8-A54B-733AC2D1C83F} = {39624382-B2EB-46C8-A54B-733AC2D1C83F}
 		{3ABCF987-4236-460A-87DD-40DA98BA3B31} = {3ABCF987-4236-460A-87DD-40DA98BA3B31}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_form", "xray\test_form\test_form.vcproj", "{58D6D4F2-6C9A-4FD8-AFA5-DE0991A26D36}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_form", "vostok\test_form\test_form.vcproj", "{58D6D4F2-6C9A-4FD8-AFA5-DE0991A26D36}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_animations", "xray\test_animations\sources\test_animations.vcproj", "{9288AF70-7995-42D1-AE8F-CE14825FBC60}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_animations", "vostok\test_animations\sources\test_animations.vcproj", "{9288AF70-7995-42D1-AE8F-CE14825FBC60}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E479FF54-6317-42C2-8B50-7522D869814F} = {E479FF54-6317-42C2-8B50-7522D869814F}
 		{39624382-B2EB-46C8-A54B-733AC2D1C83F} = {39624382-B2EB-46C8-A54B-733AC2D1C83F}
@@ -341,7 +341,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texture_compressor", "amd\c
 		{9E219DF2-315D-478E-8A07-8960C377CE1E} = {9E219DF2-315D-478E-8A07-8960C377CE1E}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texture_compressor_test", "xray\texture_compressor_test\sources\texture_compressor_test.vcproj", "{EAFB22ED-6CE8-4740-AF16-6AE6DB773462}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texture_compressor_test", "vostok\texture_compressor_test\sources\texture_compressor_test.vcproj", "{EAFB22ED-6CE8-4740-AF16-6AE6DB773462}"
 	ProjectSection(ProjectDependencies) = postProject
 		{4EBA1E2F-CEDE-4009-B890-30D72F9FEEEE} = {4EBA1E2F-CEDE-4009-B890-30D72F9FEEEE}
 		{39624382-B2EB-46C8-A54B-733AC2D1C83F} = {39624382-B2EB-46C8-A54B-733AC2D1C83F}
@@ -350,9 +350,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texture_compressor_test", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "theora", "theora\sources\win32\VS2008\libtheora\libtheora_static.vcproj", "{653F3841-3F26-49B9-AFCF-091DB4B67031}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ui", "xray\ui\sources\ui.vcproj", "{C739B7EC-C9C7-497D-8A9F-735AFC484914}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ui", "vostok\ui\sources\ui.vcproj", "{C739B7EC-C9C7-497D-8A9F-735AFC484914}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vfs", "xray\vfs\sources\vfs.vcproj", "{5F3E5796-D883-4D50-A1E2-246480650808}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vfs", "vostok\vfs\sources\vfs.vcproj", "{5F3E5796-D883-4D50-A1E2-246480650808}"
 	ProjectSection(ProjectDependencies) = postProject
 		{23F036A4-B540-4F32-A58B-1C7A11523D48} = {23F036A4-B540-4F32-A58B-1C7A11523D48}
 	EndProjectSection
@@ -365,9 +365,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeifenLuo.WinFormsUI.Dockin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFToolkit.Extended", "WPFToolkit.Extended\WPFToolkit.Extended.csproj", "{72E591D6-8F83-4D8C-8F67-9C325E623234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_controls", "xray\wpf_controls\wpf_controls.csproj", "{1351B0D6-E811-43F6-B57D-08655826DE18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_controls", "vostok\wpf_controls\wpf_controls.csproj", "{1351B0D6-E811-43F6-B57D-08655826DE18}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xbox_debug_client", "xray\xbox_debug_client\xbox_debug_client.vcproj", "{04E6D09D-9AF5-471F-82B3-0BC09DB09B7D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xbox_debug_client", "vostok\xbox_debug_client\xbox_debug_client.vcproj", "{04E6D09D-9AF5-471F-82B3-0BC09DB09B7D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{39624382-B2EB-46C8-A54B-733AC2D1C83F} = {39624382-B2EB-46C8-A54B-733AC2D1C83F}
 	EndProjectSection
@@ -376,7 +376,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib\zlib.vcproj", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlibN", "zlib\zlibN.vcproj", "{4103F7E4-2835-48FB-BA5E-DD0A14A16927}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sound_system_usage_example", "xray\sound_system_usage_example\sources\sound_system_usage_example.vcproj", "{A9089CDE-82CB-4A02-B32C-470F1AC5E838}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sound_system_usage_example", "vostok\sound_system_usage_example\sources\sound_system_usage_example.vcproj", "{A9089CDE-82CB-4A02-B32C-470F1AC5E838}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E31F3F03-D47A-4ED0-9503-171B94B1BFB2} = {E31F3F03-D47A-4ED0-9503-171B94B1BFB2}
 		{1E8DB72A-E3ED-4E15-979B-31BA5BFDD4C1} = {1E8DB72A-E3ED-4E15-979B-31BA5BFDD4C1}
@@ -394,7 +394,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sound_system_usage_example"
 		{C2FEBAE9-7A0D-483E-89B7-1FF2388187E4} = {C2FEBAE9-7A0D-483E-89B7-1FF2388187E4}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vfs_pack", "xray\vfs_pack\sources\vfs_pack.vcproj", "{4841F13C-BFB3-4D2A-8B1F-4038A06648AB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vfs_pack", "vostok\vfs_pack\sources\vfs_pack.vcproj", "{4841F13C-BFB3-4D2A-8B1F-4038A06648AB}"
 	ProjectSection(ProjectDependencies) = postProject
 		{39624382-B2EB-46C8-A54B-733AC2D1C83F} = {39624382-B2EB-46C8-A54B-733AC2D1C83F}
 		{5F3E5796-D883-4D50-A1E2-246480650808} = {5F3E5796-D883-4D50-A1E2-246480650808}
@@ -403,7 +403,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vfs_pack", "xray\vfs_pack\s
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bullet", "bullet\bullet.vcproj", "{CB487885-BEF1-40E7-A6F9-0C98A72EF12A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "resources_performance_test", "xray\resources_performance_test\sources\resources_performance_test.vcproj", "{A015EEF3-8A2E-48B5-B303-154708610B25}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "resources_performance_test", "vostok\resources_performance_test\sources\resources_performance_test.vcproj", "{A015EEF3-8A2E-48B5-B303-154708610B25}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E31F3F03-D47A-4ED0-9503-171B94B1BFB2} = {E31F3F03-D47A-4ED0-9503-171B94B1BFB2}
 		{1E8DB72A-E3ED-4E15-979B-31BA5BFDD4C1} = {1E8DB72A-E3ED-4E15-979B-31BA5BFDD4C1}
@@ -412,7 +412,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "resources_performance_test"
 		{23F036A4-B540-4F32-A58B-1C7A11523D48} = {23F036A4-B540-4F32-A58B-1C7A11523D48}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maya2012", "xray\maya\sources\maya2012.vcproj", "{36878ABA-15C7-48A8-9AAB-1F418CE3A5AD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maya2012", "vostok\maya\sources\maya2012.vcproj", "{36878ABA-15C7-48A8-9AAB-1F418CE3A5AD}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E31F3F03-D47A-4ED0-9503-171B94B1BFB2} = {E31F3F03-D47A-4ED0-9503-171B94B1BFB2}
 		{1E8DB72A-E3ED-4E15-979B-31BA5BFDD4C1} = {1E8DB72A-E3ED-4E15-979B-31BA5BFDD4C1}

@@ -1,0 +1,9 @@
+E:\Visual Studio\Repositories\xr2-dsgn\xr2-dsgn\binaries\Win32\debug\license.txt
+E:\Visual Studio\Repositories\xr2-dsgn\xr2-dsgn\binaries\Win32\debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Visual Studio\Repositories\xr2-dsgn\xr2-dsgn\binaries\Win32\debug\WeifenLuo.WinFormsUI.Docking.pdb
+E:\Visual Studio\Repositories\xr2-dsgn\xr2-dsgn\sources\WeifenLuo.WinFormsUI.Docking\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Visual Studio\Repositories\xr2-dsgn\xr2-dsgn\sources\WeifenLuo.WinFormsUI.Docking\obj\x86\Debug\WeifenLuo.WinFormsUI.Docking.Resources.resources
+E:\Visual Studio\Repositories\xr2-dsgn\xr2-dsgn\sources\WeifenLuo.WinFormsUI.Docking\obj\x86\Debug\WeifenLuo.WinFormsUI.Docking.Strings.resources
+E:\Visual Studio\Repositories\xr2-dsgn\xr2-dsgn\sources\WeifenLuo.WinFormsUI.Docking\obj\x86\Debug\WeifenLuo.WinFormsUI.Docking.csproj.GenerateResource.Cache
+E:\Visual Studio\Repositories\xr2-dsgn\xr2-dsgn\sources\WeifenLuo.WinFormsUI.Docking\obj\x86\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Visual Studio\Repositories\xr2-dsgn\xr2-dsgn\sources\WeifenLuo.WinFormsUI.Docking\obj\x86\Debug\WeifenLuo.WinFormsUI.Docking.pdb
